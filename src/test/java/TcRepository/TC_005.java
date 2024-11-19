@@ -10,7 +10,7 @@ import objectRepo.OrganizationsPage;
 
 public class TC_005 extends BaseClass {
 	
-	@Test(groups="Regression")
+	@Test(groups="Smoke")
 	public void ORG_01Test() throws Exception {
 		System.out.println("Test method started");
 		HomePage hp = new HomePage(driver);
