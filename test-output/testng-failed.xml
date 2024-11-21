@@ -4,32 +4,32 @@
   <test thread-count="5" name="Test(failed)">
     <groups>
       <run>
-        <include name="Regression"/>
+        <include name="Smoke"/>
       </run>
     </groups>
     <classes>
-      <class name="TcRepository.TC_002">
+      <class name="TcRepository.TC_006">
         <methods>
-          <include name="lE_02Test"/>
           <include name="closeDBConnection"/>
+          <include name="dbConnection"/>
+          <include name="logoutOperation"/>
+          <include name="ORG_02Test"/>
+          <include name="loginOperation"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- TcRepository.TC_006 -->
+      <class name="TcRepository.TC_008">
+        <methods>
+          <include name="closeDBConnection"/>
+          <include name="ORG_04Test"/>
           <include name="dbConnection"/>
           <include name="logoutOperation"/>
           <include name="loginOperation"/>
           <include name="closeBrowser"/>
           <include name="launchBrowser"/>
         </methods>
-      </class> <!-- TcRepository.TC_002 -->
-      <class name="TcRepository.TC_005">
-        <methods>
-          <include name="closeDBConnection"/>
-          <include name="dbConnection"/>
-          <include name="ORG_01Test"/>
-          <include name="logoutOperation"/>
-          <include name="loginOperation"/>
-          <include name="closeBrowser"/>
-          <include name="launchBrowser"/>
-        </methods>
-      </class> <!-- TcRepository.TC_005 -->
+      </class> <!-- TcRepository.TC_008 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

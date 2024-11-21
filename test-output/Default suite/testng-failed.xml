@@ -3,11 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Sample.HardAssertionPractice">
+      <class name="TcRepository.TC_008">
         <methods>
-          <include name="containsComparisonHardAssert"/>
+          <include name="closeDBConnection"/>
+          <include name="ORG_04Test"/>
+          <include name="dbConnection"/>
+          <include name="logoutOperation"/>
+          <include name="loginOperation"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
         </methods>
-      </class> <!-- Sample.HardAssertionPractice -->
+      </class> <!-- TcRepository.TC_008 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

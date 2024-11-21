@@ -8,7 +8,6 @@
 </groups>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="TcRepository.TC_008"/>
       <class name="TcRepository.TC_005"/>
       <class name="TcRepository.TC_006"/>
     </classes>

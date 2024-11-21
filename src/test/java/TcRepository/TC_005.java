@@ -15,7 +15,7 @@ public class TC_005 extends BaseClass {
 		System.out.println("Test method started");
 		HomePage hp = new HomePage(driver);
 		hp.clickOnOrganisationsMenu();
-		Assert.fail();
+		//Assert.fail();
 		OrganizationsPage lp = new OrganizationsPage(driver);
 		lp.clickOnCreateNewOrganizationIcon();
 		String oName = eUtil.getDataFromExcel("Organisation", 1, 1);
